@@ -129,7 +129,7 @@ const dateResult = dateTaken.toLocaleDateString('en-US', dateOption)
     const forecastItem = `
         <div class="forecast-item">
             <h5 class="forecast-item-date regular-txt">${dateResult}</h5>
-            <img src="/weathericon/${getWeatherIcon(id)}" alt="" class="forecast-item-img">
+            <img src="weathericon/${getWeatherIcon(id)}" alt="" class="forecast-item-img">
             <h5 class="forecast-item-temp">${Math.round(temp)} °C</h5>
         </div>
     `
